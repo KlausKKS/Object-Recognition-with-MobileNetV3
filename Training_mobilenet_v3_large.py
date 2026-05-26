@@ -12,7 +12,7 @@ import shutil
 
 # 📁 Konfiguration
 TRAINING_DATA_DIR = "training_data/Dataset"
-MODEL_PATH = "Objekterkennung Desmids/mobilenet_model_v3.keras"
+MODEL_PATH = "mobilenet_model_v3.keras"
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 16
 EPOCHS = 50
