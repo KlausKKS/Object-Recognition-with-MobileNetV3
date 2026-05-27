@@ -1,3 +1,7 @@
+# This model enables training of data to create a mobilenetv3 model.
+# Batch size, epochs and learning rate can be determined manually
+# val_accuracy and val_loss are recorded und presented in a diagram
+# To avoid overfiting early stopping is incorporated as well as the option to reduce the learning rate
 import tensorflow as tf
 from tensorflow.keras.applications import MobileNetV3Large
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
@@ -11,7 +15,7 @@ import matplotlib.pyplot as plt
 import shutil
 
 # 📁 Konfiguration
-TRAINING_DATA_DIR = "training_data/Dataset"
+TRAINING_DATA_DIR = "path_to_your_training_data"
 MODEL_PATH = "mobilenet_model_v3.keras"
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 16
