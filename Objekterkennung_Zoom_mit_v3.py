@@ -1,3 +1,6 @@
+# This model allows Object Recognition based on a mobilenetv3.keras model.
+# It can save single and sequential pictues and correct results.
+# It allows changing the magnification and the measurement of the size of the Objects
 import cv2
 import numpy as np
 import os
@@ -10,8 +13,8 @@ from tensorflow.keras.applications.mobilenet_v3 import preprocess_input
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 MODEL_PATH = "mobilenet_model_v3.keras"
-CLASSES_CSV = "training_data/Classes_alle.csv"
-RULES_CSV = "training_data/Abmessungen.csv"
+CLASSES_CSV = "path_to_your_training_data.csv"
+RULES_CSV = "path_to_your_size_file.csv"
 IMG_SIZE = (224, 224)
 
 BILD_SAVE_DIR = "bilder"
