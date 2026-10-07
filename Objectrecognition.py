@@ -1,3 +1,6 @@
+# This model allows Object Recognition based on a mobilenetv3.keras model.
+# It can save single and sequential pictues and correct results.
+# It allows changing the magnification and the measurement of the size of the objects
 import sys
 print("Aktueller Python-Interpreter:", sys.executable)
 import cv2
