@@ -13,7 +13,7 @@ opencv-python>=4.9.0
 matplotlib>=3.8.0
 seaborn>=0.13.0
  
-The file Objectrecognition.py can be used for Object Recognition with opencv. A usb camera can be used for videostreaming. Included are features to zoom the videostream, measure the size of the object, save HD pictures and correct incorrect recognition. To measure the size of the object microscope, camera und objective have to be calibrated (pixel/µm}.
+The file Objectrecognition.py can be used for Object Recognition with opencv. A usb camera can be used for videostreaming. Included are features to zoom the videostream, measure the size of the object, save HD pictures and correct incorrect recognition. To measure the size of the object microscope, camera und objective have to be calibrated in the script (pixel/µm}.
 
 Training_mobilenet_v3_large.py runs through with the reference dataset (90 classes, ~8000 preprocessed images) without errors and produces mobilenet_model_v3_224.keras, confusion_matrix_224.png, and training_plot_v3.png.
 
@@ -21,5 +21,6 @@ Objectrecognition.py connects to the camera, displays live top-2 classifications
 
 Length measurement delivers plausible µm values with the active objective and correct pass/fail evaluation according to Measurement.csv 
 
-A fresh clone + pip install -r requirements.txt + providing data/model is sufficient to run both scripts.
+A fresh clone with git clone https://github.com/KlausKKS/Object-Recognition-with-MobileNetV3.git
+cd Object-Recognition-with-MobileNetV3 + pip install -r requirements.txt is sufficient to run both scripts.
 
