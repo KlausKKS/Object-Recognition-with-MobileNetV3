@@ -94,7 +94,7 @@ measured_size = 0.0
 last_detected_class = None
 
 # === Bildvorverarbeitung ===
-def crop_and_resize(img, target_size=(384, 384)):
+def crop_and_resize(img, target_size=(224, 224)):
     h, w = img.shape[:2]
     min_dim = min(h, w)
     start_x = (w - min_dim) // 2
