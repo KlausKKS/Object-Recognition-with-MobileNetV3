@@ -8,7 +8,7 @@ The application uses a camera and OpenCV for real-time object recognition. It al
 
 - Windows 10 or Windows 11 (64-bit)
 - Python 3.11 (64-bit)
-- Connected camera
+- Connected camera (settings in the script may have to be adapted)
 - Files included in this repository
 
 ## Installation
