@@ -17,7 +17,7 @@ Download or clone the repository:
 
 ```bash
 git clone https://github.com/KlausKKS/Objekterkennung-Desmids.git
-cd Objekterkennung-Desmids
+cd Object-Recognition-with-mobileNetV3
 ```
 
 Install the required packages:
