@@ -34,7 +34,7 @@ py objekterkennung_tflite_windows_mac.py
 
 ## Model
 
-The `mobilenet_model_v3_224.tflite` model is based on MobileNetV3Large and uses images with a resolution of 224 × 224 pixels.
+The `mobilenet_model_v3_224.tflite` model is based on MobileNetV3Large and uses images with a resolution of 224 × 224 pixels. It runs on Mac and Windows.
 
 The model has already been trained. No additional training is required to use the application.
 
