@@ -16,8 +16,8 @@ The application uses a camera and OpenCV for real-time object recognition. It al
 Download or clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Objekterkennung-Desmids.git
-cd Objekterkennung-Desmids
+git clone https://github.com/KlausKKS/Objekterkennung-Desmids.git
+cd Objectrecognition-Desmids
 ```
 
 Install the required packages:
@@ -29,7 +29,7 @@ py -m pip install -r requirements.txt
 ## Running the Application
 
 ```bash
-py objekterkennung_windows_tflite.py
+py objekterkennung_tflite_windows_mac.py
 ```
 
 ## Model
