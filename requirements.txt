@@ -1,10 +1,4 @@
-# Training script (Training_mobilenet_v3_large.py) and inference (Objectrecognition.py)
-# Tested with Python 3.10 in a venv
-tensorflow==2.16.1
-numpy==1.26.4
-pandas==2.2.2
-Pillow>=10.0.0
-scikit-learn>=1.4.0
-opencv-python>=4.9.0
-matplotlib>=3.8.0
-seaborn>=0.13.0
+tensorflow
+opencv-python
+numpy
+pandas
