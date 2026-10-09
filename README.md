@@ -17,7 +17,7 @@ Download or clone the repository:
 
 ```bash
 git clone https://github.com/KlausKKS/Objekterkennung-Desmids.git
-cd Objectrecognition-Desmids
+cd Objekterkennung-Desmids
 ```
 
 Install the required packages:
