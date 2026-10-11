@@ -1,6 +1,6 @@
 # Desmids Object Recognition
 
-Object recognition using a trained MobileNetV3 model in TensorFlow Lite format.
+Object recognition using a trained MobileNetV3 model in TensorFlow Lite format. The original MobileNetV3 model which runs on an Apple M3 Chip was converted to the Lite format to allow running the application on Windows.
 
 The application uses a camera and OpenCV for real-time object recognition. It also supports displaying the two most likely classes, zooming, length measurements, and saving images.
 
