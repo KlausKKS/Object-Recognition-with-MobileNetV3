@@ -16,7 +16,7 @@ The application uses a camera and OpenCV for real-time object recognition. It al
 Download or clone the repository:
 
 ```bash
-git clone https://github.com/KlausKKS/Objektrecognition-with-mobilenetv3.git
+git clone https://github.com/KlausKKS/Object-Recognition-with-mobilenetv3.git
 cd Object-Recognition-with-mobileNetV3
 ```
 
