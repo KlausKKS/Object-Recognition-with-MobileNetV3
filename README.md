@@ -23,13 +23,13 @@ cd Object-Recognition-with-mobileNetV3
 Install the required packages:
 
 ```bash
-py -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## Running the Application
 
 ```bash
-py objekterkennung_tflite_windows_mac.py
+python objekterkennung_tflite_windows_mac.py
 ```
 
 ## Model
