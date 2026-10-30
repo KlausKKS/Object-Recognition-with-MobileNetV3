@@ -25,7 +25,7 @@ Install the required packages:
 ```bash
 python3 -m pip install -r requirements.txt
 ```
-## For Windows use python or py -3.11 command
+For IOS use python3 command, for Windows use python or py -3.11 command if python3 command does not work
 
 ## Running the Application
 
