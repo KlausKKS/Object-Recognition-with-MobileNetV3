@@ -25,14 +25,12 @@ Install the required packages:
 ```bash
 python3 -m pip install -r requirements.txt
 ```
-For IOS use python3 command, for Windows use python or py -3.11 command if python3 command does not work
 
 ## Running the Application
 
 ```bash
 python3 objekterkennung_tflite_windows_mac.py
 ```
-For IOS use python3 command, for Windows use python or py -3.11 command if python3 command does not work
 
 ## Model
 
